@@ -1,0 +1,26 @@
+#flexbox{
+    display:flex;
+    flex-direction:column;
+    justify-content: start;
+    height:650px;
+    width:710px;
+    flex-wrap:wrap;
+        }
+.image{
+    margin:5px;
+    background:blue;
+    height:200px;
+    width:200px;
+}
+.boxline{
+    margin:5px;
+    background:blue;
+    height:400px;
+    width:200px;
+}
+#visibility{
+    margin:5px;
+    height:200px;
+    width:200px;
+    visibility:hidden;
+} 
