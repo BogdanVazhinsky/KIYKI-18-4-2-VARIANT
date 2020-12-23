@@ -1,0 +1,11 @@
+@import "style/print.css";
+@import "style/palm.css";
+.color_text{
+color:red;
+}
+#text_big{
+    font-family: monospace;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase;
+}

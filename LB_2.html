@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .color_text{
+        color:red;
+                    }
+            #text_big{
+        font-family: monospace;
+        font-weight: 600;
+        font-style: italic;
+        text-transform: uppercase;
+            }
+            #box1{
+                position:relative;
+                bottom:-45px;
+                left:0px;
+                width:300px;
+                height:300px;
+                background:red;
+            }   
+            #box2{
+                position:absolute;
+                bottom:145px;
+                left:8px;
+                border-bottom:200px solid blue;
+                border-left:150px solid transparent;
+                border-right:150px solid transparent;
+            }
+            .post {
+            float: right;
+            background:yellow;
+            border: 5px solid green;
+            padding: 10px;
+            margin-top: 10px;
+            width: 60%;
+}
+    </style>
+    <link rel="stylesheet" href="list.css" type="text/css">
+</head>
+<body>
+<h1 style="color:orange;text-align: center">Вторая лабораторная робота!</h1>
+<div align="center"><a href="flexbox007.html" target="_blank">FLEXBOX</a></div>
+    <ul>Шахматные фигуры
+        <li>Ладья</li>
+        <li>Конь</li>
+        <li>Слон</li>
+        <li>Король</li>
+        <li>Королева</li>
+        <li>Пешка</li>
+    </ul>
+    <div class="post">Я чувствую что вы используете AdBlock для предотвращения баннеров и рекламы,
+        нам нужна реклама пожалуйста отключите данное расширение,
+        иначе вы будете заблокировани на данном сайте.</div>
+    <i class="color_text">цветной курсивный текст с использованием класса color_text расположеный в файле format_text!</i>
+    <br>
+    <tt id="text_big">Большой моноширный текст с идентификатором text_big!</tt>
+<div id="box1"></div>
+<div id="box2"></div>
+</body>
+</html>
